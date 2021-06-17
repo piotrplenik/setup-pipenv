@@ -22,6 +22,8 @@ jobs:
     - uses: actions/checkout@v1
     - name: Setup Python
       uses: piotr-vimn/setup-pipenv@v1
+      var:
+        pipenv-version: 2021.5.29
     ...
 ```
 
