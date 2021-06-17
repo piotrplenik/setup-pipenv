@@ -3,7 +3,7 @@ description: 'Set up a specific version of PipEnv and add the command-line tools
 author: 'Piotr Plenik'
 inputs:
   pipenv-version:
-    description: "Version range or exact version of a PipEnv version to use, using SemVer's version range syntax."
+    description: "Version range or exact version of a Pipenv version to use, using SemVer's version range syntax."
     default: '2021.x.x'
 runs:
   using: 'node12'
