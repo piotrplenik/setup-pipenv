@@ -1,7 +1,7 @@
 import {exec} from '@actions/exec'
 
 export class Installer {
-  public async get() {
+  async get(): Promise<void> {
     await exec('pip', ['install', 'pipenv'])
   }
 }
